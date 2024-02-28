@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.CommandProcessorTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2024-01-16T06:30:56" hostname="Jasons-Air.fios-router.home" time="0.053">
+  <properties/>
+  <testcase name="over_balance_transfer_between_accounts()" classname="banking.CommandProcessorTest" time="0.024"/>
+  <testcase name="transfer_between_savings_and_savings_has_correct_balance()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="withdraw_savings_account_has_correct_balance()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="valid_pass_time_interest_calculation_command()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="valid_pass_time_delete_account_command()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="withdraw_over_balance_savings_account_has_correct_balance()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="withdraw_checking_account_has_correct_balance()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="create_Checking_Account_Has_Correct_Id_And_Apr()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="create_Saving_Account_Has_Correct_Id_And_Apr()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="create_CD_Account_Has_Correct_Id_Apr_And_Balance()" classname="banking.CommandProcessorTest" time="0.01"/>
+  <testcase name="withdraw_over_balance_checking_account_has_correct_balance()" classname="banking.CommandProcessorTest" time="0.002"/>
+  <testcase name="valid_pass_time_minimum_balance_command()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="setUp()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="deposit_Saving_Account_Has_Correct_Balance()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="deposit_Checking_Account_can_be_1000()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="invalid_transfer_between_checking_and_cd()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="transfer_between_checking_and_savings_has_correct_balance()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="invalid_transfer_between_cd_and_savings()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="transfer_between_checking_and_checking_has_correct_balance()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="deposit_Checking_Account_Has_Correct_Balance()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="valid_create_case_insensitive_command()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="transfer_between_savings_and_checking_has_correct_balance()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="withdraw_0_checking_account_has_correct_balance()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="invalid_transfer_between_cd_and_checking()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <system-out><![CDATA[Savings account created with ID 12345678
+Command stored successfully.Deposit 12345678 300
+Deposited $300.0 into account 12345678
+Checking account created with ID 12345679
+Command stored successfully.Deposit 12345679 300
+Deposited $300.0 into account 12345679
+Command stored successfully.Transfer 12345678 12345679 400
+Command stored successfully.Transfer 12345678 12345679 400
+Savings account created with ID 12345678
+Command stored successfully.Deposit 12345678 300
+Deposited $300.0 into account 12345678
+Savings account created with ID 12345679
+Command stored successfully.Deposit 12345679 300
+Deposited $300.0 into account 12345679
+Command stored successfully.Transfer 12345678 12345679 200
+Command stored successfully.Transfer 12345678 12345679 200
+Savings account created with ID 12345678
+Command stored successfully.Deposit 12345678 300
+Deposited $300.0 into account 12345678
+Withdraw $100.0 from account 12345678
+Command stored successfully.Withdraw 12345678 100
+Savings account created with ID 12345678
+Command stored successfully.Deposit 12345678 100
+Deposited $100.0 into account 12345678
+Savings account created with ID 12345678
+Savings account created with ID 12345678
+Command stored successfully.Deposit 12345678 300
+Deposited $300.0 into account 12345678
+Checking account created with ID 12345678
+Command stored successfully.Deposit 12345678 1000
+Deposited $1000.0 into account 12345678
+Withdraw $300.0 from account 12345678
+Command stored successfully.Withdraw 12345678 300
+Checking account created with ID 12345678
+Savings account created with ID 12345678
+CD account created with ID 12345678
+Checking account created with ID 12345678
+Command stored successfully.Deposit 12345678 300
+Deposited $300.0 into account 12345678
+Savings account created with ID 12345678
+Command stored successfully.Deposit 12345678 75
+Deposited $75.0 into account 12345678
+Savings account created with ID 12345678
+Command stored successfully.Deposit 12345678 120
+Deposited $120.0 into account 12345678
+Checking account created with ID 12345678
+Command stored successfully.Deposit 12345678 1000
+Deposited $1000.0 into account 12345678
+Checking account created with ID 12345678
+Command stored successfully.Deposit 12345678 300
+Deposited $300.0 into account 12345678
+CD account created with ID 12345679
+Checking account created with ID 12345678
+Command stored successfully.Deposit 12345678 300
+Deposited $300.0 into account 12345678
+Savings account created with ID 12345679
+Command stored successfully.Deposit 12345679 300
+Deposited $300.0 into account 12345679
+Command stored successfully.Transfer 12345678 12345679 200
+Command stored successfully.Transfer 12345678 12345679 200
+CD account created with ID 12345678
+Savings account created with ID 12345679
+Command stored successfully.Deposit 12345679 300
+Deposited $300.0 into account 12345679
+Checking account created with ID 12345678
+Command stored successfully.Deposit 12345678 300
+Deposited $300.0 into account 12345678
+Checking account created with ID 12345679
+Command stored successfully.Deposit 12345679 300
+Deposited $300.0 into account 12345679
+Command stored successfully.Transfer 12345678 12345679 200
+Command stored successfully.Transfer 12345678 12345679 200
+Checking account created with ID 12345678
+Command stored successfully.Deposit 12345678 100
+Deposited $100.0 into account 12345678
+Checking account created with ID 98765432
+Savings account created with ID 12345678
+Command stored successfully.Deposit 12345678 300
+Deposited $300.0 into account 12345678
+Checking account created with ID 12345679
+Command stored successfully.Deposit 12345679 300
+Deposited $300.0 into account 12345679
+Command stored successfully.Transfer 12345678 12345679 200
+Command stored successfully.Transfer 12345678 12345679 200
+Checking account created with ID 12345678
+Command stored successfully.Deposit 12345678 300
+Deposited $300.0 into account 12345678
+Withdraw $0.0 from account 12345678
+Command stored successfully.Withdraw 12345678 0
+CD account created with ID 12345678
+Checking account created with ID 12345679
+Command stored successfully.Deposit 12345679 300
+Deposited $300.0 into account 12345679
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.BankTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-01-16T06:30:56" hostname="Jasons-Air.fios-router.home" time="0.003">
+  <properties/>
+  <testcase name="retrieve_one_account_from_bank()" classname="banking.BankTest" time="0.0"/>
+  <testcase name="bank_is_created()" classname="banking.BankTest" time="0.0"/>
+  <testcase name="withdraw_money_through_id_at_bank_twice()" classname="banking.BankTest" time="0.0"/>
+  <testcase name="bank_adds_two_accounts()" classname="banking.BankTest" time="0.0"/>
+  <testcase name="deposit_money_through_id_at_bank()" classname="banking.BankTest" time="0.001"/>
+  <testcase name="deposit_money_through_id_at_bank_twice()" classname="banking.BankTest" time="0.0"/>
+  <testcase name="bank_adds_one_account()" classname="banking.BankTest" time="0.0"/>
+  <testcase name="bank_is_empty()" classname="banking.BankTest" time="0.0"/>
+  <testcase name="withdraw_money_through_id_at_bank()" classname="banking.BankTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

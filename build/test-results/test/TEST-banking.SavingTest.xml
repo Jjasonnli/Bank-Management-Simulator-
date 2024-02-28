@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.SavingTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-01-16T06:30:56" hostname="Jasons-Air.fios-router.home" time="0.003">
+  <properties/>
+  <testcase name="saving_account_apr()" classname="banking.SavingTest" time="0.001"/>
+  <testcase name="savings_account_create()" classname="banking.SavingTest" time="0.0"/>
+  <testcase name="saving_account_deposit()" classname="banking.SavingTest" time="0.0"/>
+  <testcase name="saving_account_twice_deposit()" classname="banking.SavingTest" time="0.0"/>
+  <testcase name="savings_account_starting_balance()" classname="banking.SavingTest" time="0.0"/>
+  <testcase name="saving_account_withdraw()" classname="banking.SavingTest" time="0.001"/>
+  <testcase name="saving_account_twice_withdraw()" classname="banking.SavingTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

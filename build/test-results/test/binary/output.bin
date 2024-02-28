@@ -1,0 +1,155 @@
+)Savings account created with ID 12345678
+1Command stored successfully.Deposit 12345678 300
+'Deposited $300.0 into account 12345678
+*Checking account created with ID 12345679
+1Command stored successfully.Deposit 12345679 300
+'Deposited $300.0 into account 12345679
+;Command stored successfully.Transfer 12345678 12345679 400
+;Command stored successfully.Transfer 12345678 12345679 400
+)Savings account created with ID 12345678
+1Command stored successfully.Deposit 12345678 300
+'Deposited $300.0 into account 12345678
+)Savings account created with ID 12345679
+1Command stored successfully.Deposit 12345679 300
+'Deposited $300.0 into account 12345679
+;Command stored successfully.Transfer 12345678 12345679 200
+;Command stored successfully.Transfer 12345678 12345679 200
+)Savings account created with ID 12345678
+1Command stored successfully.Deposit 12345678 300
+'Deposited $300.0 into account 12345678
+&Withdraw $100.0 from account 12345678
+2Command stored successfully.Withdraw 12345678 100
+)Savings account created with ID 12345678
+1Command stored successfully.Deposit 12345678 100
+'Deposited $100.0 into account 12345678
+)Savings account created with ID 12345678
+)Savings account created with ID 12345678
+1Command stored successfully.Deposit 12345678 300
+'Deposited $300.0 into account 12345678
+*Checking account created with ID 12345678
+2Command stored successfully.Deposit 12345678 1000
+(Deposited $1000.0 into account 12345678
+&Withdraw $300.0 from account 12345678
+2Command stored successfully.Withdraw 12345678 300
+	*Checking account created with ID 12345678
+
+)Savings account created with ID 12345678
+$CD account created with ID 12345678
+*Checking account created with ID 12345678
+1Command stored successfully.Deposit 12345678 300
+'Deposited $300.0 into account 12345678
+)Savings account created with ID 12345678
+0Command stored successfully.Deposit 12345678 75
+&Deposited $75.0 into account 12345678
+)Savings account created with ID 12345678
+1Command stored successfully.Deposit 12345678 120
+'Deposited $120.0 into account 12345678
+*Checking account created with ID 12345678
+2Command stored successfully.Deposit 12345678 1000
+(Deposited $1000.0 into account 12345678
+*Checking account created with ID 12345678
+1Command stored successfully.Deposit 12345678 300
+'Deposited $300.0 into account 12345678
+$CD account created with ID 12345679
+*Checking account created with ID 12345678
+1Command stored successfully.Deposit 12345678 300
+'Deposited $300.0 into account 12345678
+)Savings account created with ID 12345679
+1Command stored successfully.Deposit 12345679 300
+'Deposited $300.0 into account 12345679
+;Command stored successfully.Transfer 12345678 12345679 200
+;Command stored successfully.Transfer 12345678 12345679 200
+$CD account created with ID 12345678
+)Savings account created with ID 12345679
+1Command stored successfully.Deposit 12345679 300
+'Deposited $300.0 into account 12345679
+*Checking account created with ID 12345678
+1Command stored successfully.Deposit 12345678 300
+'Deposited $300.0 into account 12345678
+*Checking account created with ID 12345679
+1Command stored successfully.Deposit 12345679 300
+'Deposited $300.0 into account 12345679
+;Command stored successfully.Transfer 12345678 12345679 200
+;Command stored successfully.Transfer 12345678 12345679 200
+*Checking account created with ID 12345678
+1Command stored successfully.Deposit 12345678 100
+'Deposited $100.0 into account 12345678
+*Checking account created with ID 98765432
+)Savings account created with ID 12345678
+1Command stored successfully.Deposit 12345678 300
+'Deposited $300.0 into account 12345678
+*Checking account created with ID 12345679
+1Command stored successfully.Deposit 12345679 300
+'Deposited $300.0 into account 12345679
+;Command stored successfully.Transfer 12345678 12345679 200
+;Command stored successfully.Transfer 12345678 12345679 200
+*Checking account created with ID 12345678
+1Command stored successfully.Deposit 12345678 300
+'Deposited $300.0 into account 12345678
+$Withdraw $0.0 from account 12345678
+0Command stored successfully.Withdraw 12345678 0
+$CD account created with ID 12345678
+*Checking account created with ID 12345679
+1Command stored successfully.Deposit 12345679 300
+'Deposited $300.0 into account 12345679
+ZY*Checking account created with ID 12345678
+ZY2Account state stored: Checking 12345678 0.00 2.00
+ZY8Invalid commands stored: [Create checking 12345678 1.0]
+Z[)Savings account created with ID 12345678
+Z[2Command stored successfully.Deposit 12345678 1000
+Z[(Deposited $1000.0 into account 12345678
+Z[&Withdraw $100.0 from account 12345678
+Z[2Command stored successfully.Withdraw 12345678 100
+Z[&Withdraw $500.0 from account 12345678
+Z[2Command stored successfully.Withdraw 12345678 500
+Z[3Account state stored: Savings 12345678 400.00 0.00
+Z[1Invalid commands stored: [Withdraw 12345678 200]
+Z\)Savings account created with ID 12345678
+Z\1Command stored successfully.Deposit 12345678 700
+Z\'Deposited $700.0 into account 12345678
+Z\*Checking account created with ID 98765432
+Z\1Command stored successfully.Deposit 98765432 300
+Z\'Deposited $300.0 into account 98765432
+Z\;Command stored successfully.Transfer 98765432 12345678 300
+Z\;Command stored successfully.Transfer 98765432 12345678 300
+Z\$CD account created with ID 23456789
+Z\4Account state stored: Savings 12345678 1000.50 0.60
+Z\/Account state stored: Cd 23456789 2000.00 1.20
+Z\1Invalid commands stored: [Deposit 12345678 5000]
+Z]7Invalid commands stored: [creat checking 12345678 1.0]
+Z^)Savings account created with ID 12345678
+Z^1Command stored successfully.Deposit 12345678 500
+Z^'Deposited $500.0 into account 12345678
+Z^3Account state stored: Savings 12345678 500.00 0.06
+Z^Invalid commands stored: []
+Z_$CD account created with ID 12345678
+Z_'Withdraw $2500.0 from account 12345678
+Z_3Command stored successfully.Withdraw 12345678 2500
+Z_,Account state stored: Cd 12345678 0.00 0.00
+Z_aInvalid commands stored: [Withdraw 12345678 100, Withdraw 123345678 2500, Withdraw 12345678 200]
+Z`1Invalid commands stored: [depositt 12345678 1.0]
+Za)Savings account created with ID 12345678
+Za2Command stored successfully.Deposit 12345678 1000
+Za(Deposited $1000.0 into account 12345678
+Za&Withdraw $100.0 from account 12345678
+Za2Command stored successfully.Withdraw 12345678 100
+Za3Account state stored: Savings 12345678 900.00 0.00
+Za1Invalid commands stored: [Withdraw 12345678 200]
+ZbNInvalid commands stored: [creat checking 12345678 1.0, depositt 12345678 100]
+Zc)Savings account created with ID 12345678
+Zc1Command stored successfully.Deposit 12345678 500
+Zc'Deposited $500.0 into account 12345678
+Zc)Savings account created with ID 12345679
+Zc1Command stored successfully.Deposit 12345679 500
+Zc'Deposited $500.0 into account 12345679
+Zc3Account state stored: Savings 12345678 500.00 0.06
+Zc3Account state stored: Savings 12345679 500.00 0.06
+ZcInvalid commands stored: []
+Zd)Savings account created with ID 12345678
+Zd2Command stored successfully.Deposit 12345678 1000
+Zd(Deposited $1000.0 into account 12345678
+Zd4Account state stored: Savings 12345678 1010.04 1.00
+ZdInvalid commands stored: []
+Ze$CD account created with ID 12345678
+Ze/Account state stored: Cd 12345678 1000.50 0.60
+ZeInvalid commands stored: []

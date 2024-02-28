@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.CommandValidatorTest" tests="38" skipped="0" failures="0" errors="0" timestamp="2024-01-16T06:30:56" hostname="Jasons-Air.fios-router.home" time="0.015">
+  <properties/>
+  <testcase name="invalid_over_2500_deposit_savings_account_command()" classname="banking.CommandValidatorTest" time="0.001"/>
+  <testcase name="invalid_negative_apr_create_checkings_account()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="invalid_apr_create_checkings_account()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="valid_0_apr_create_checkings_account()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="invalid_balance_create_checkings_account()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="valid_withdraw_saving_account_command()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="valid_1000_deposit_checking_account_command()" classname="banking.CommandValidatorTest" time="0.001"/>
+  <testcase name="valid_transfer_savings_to_savings_account_command()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="valid_pass_time_command()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="valid_transfer_checking_to_savings_account_command()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="valid_withdraw_checking_account_command()" classname="banking.CommandValidatorTest" time="0.001"/>
+  <testcase name="invalid_negative_pass_time_command()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="valid_create_checkings_account_command()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="valid_deposit_savings_account()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="invalid_typo_deposit_checkings_account_command()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="invalid_transfer_from_same_account_command()" classname="banking.CommandValidatorTest" time="0.001"/>
+  <testcase name="valid_deposit_cd_account()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="invalid_over_balance_create_cd_account()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="valid_transfer_checking_to_checking_account_command()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="invalid_word_pass_time_command()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="valid_2500_deposit_savings_account_command()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="invalid_typo_create_checkings_account_command()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="valid_withdraw_over_balance_checking_account_command()" classname="banking.CommandValidatorTest" time="0.001"/>
+  <testcase name="invalid_over_400_withdraw_checking_account_command()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="invalid_over_1000_withdraw_saving_account_command()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="duplicate_account_id_is_invalid()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="invalid_pass_time_command()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="valid_double_deposit_any_account()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="valid_withdraw_over_balance_saving_account_command()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="valid_create_savings_account_command()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="valid_transfer_savings_to_checking_account_command()" classname="banking.CommandValidatorTest" time="0.001"/>
+  <testcase name="invalid_deposit_any_amount_cd_account_command()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="valid_create_cd_account_command()" classname="banking.CommandValidatorTest" time="0.001"/>
+  <testcase name="invalid_double_pass_time_command()" classname="banking.CommandValidatorTest" time="0.001"/>
+  <testcase name="invalid_id_deposit_any_account()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="valid_deposit_checkings_account()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="invalid_balance_create_cd_account()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="invalid_over_1000_deposit_checking_account_command()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

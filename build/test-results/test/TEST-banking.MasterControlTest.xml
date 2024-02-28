@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.MasterControlTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2024-01-16T06:30:56" hostname="Jasons-Air.fios-router.home" time="0.023">
+  <properties/>
+  <testcase name="invalid_to_create_accounts_with_same_ID()" classname="banking.MasterControlTest" time="0.016"/>
+  <testcase name="sample_saving_withdraw2()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="sample_make_sure_this_passes_unchanged_or_you_will_fail()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="typo_in_create_command_is_invalid()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="sample()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="sample_cd_withdraw()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="typo_in_deposit_command_is_invalid()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="sample_saving_withdraw()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="two_typo_commands_both_invalid()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="sample2()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="sample3()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="sample4()" classname="banking.MasterControlTest" time="0.0"/>
+  <system-out><![CDATA[Checking account created with ID 12345678
+Account state stored: Checking 12345678 0.00 2.00
+Invalid commands stored: [Create checking 12345678 1.0]
+Savings account created with ID 12345678
+Command stored successfully.Deposit 12345678 1000
+Deposited $1000.0 into account 12345678
+Withdraw $100.0 from account 12345678
+Command stored successfully.Withdraw 12345678 100
+Withdraw $500.0 from account 12345678
+Command stored successfully.Withdraw 12345678 500
+Account state stored: Savings 12345678 400.00 0.00
+Invalid commands stored: [Withdraw 12345678 200]
+Savings account created with ID 12345678
+Command stored successfully.Deposit 12345678 700
+Deposited $700.0 into account 12345678
+Checking account created with ID 98765432
+Command stored successfully.Deposit 98765432 300
+Deposited $300.0 into account 98765432
+Command stored successfully.Transfer 98765432 12345678 300
+Command stored successfully.Transfer 98765432 12345678 300
+CD account created with ID 23456789
+Account state stored: Savings 12345678 1000.50 0.60
+Account state stored: Cd 23456789 2000.00 1.20
+Invalid commands stored: [Deposit 12345678 5000]
+Invalid commands stored: [creat checking 12345678 1.0]
+Savings account created with ID 12345678
+Command stored successfully.Deposit 12345678 500
+Deposited $500.0 into account 12345678
+Account state stored: Savings 12345678 500.00 0.06
+Invalid commands stored: []
+CD account created with ID 12345678
+Withdraw $2500.0 from account 12345678
+Command stored successfully.Withdraw 12345678 2500
+Account state stored: Cd 12345678 0.00 0.00
+Invalid commands stored: [Withdraw 12345678 100, Withdraw 123345678 2500, Withdraw 12345678 200]
+Invalid commands stored: [depositt 12345678 1.0]
+Savings account created with ID 12345678
+Command stored successfully.Deposit 12345678 1000
+Deposited $1000.0 into account 12345678
+Withdraw $100.0 from account 12345678
+Command stored successfully.Withdraw 12345678 100
+Account state stored: Savings 12345678 900.00 0.00
+Invalid commands stored: [Withdraw 12345678 200]
+Invalid commands stored: [creat checking 12345678 1.0, depositt 12345678 100]
+Savings account created with ID 12345678
+Command stored successfully.Deposit 12345678 500
+Deposited $500.0 into account 12345678
+Savings account created with ID 12345679
+Command stored successfully.Deposit 12345679 500
+Deposited $500.0 into account 12345679
+Account state stored: Savings 12345678 500.00 0.06
+Account state stored: Savings 12345679 500.00 0.06
+Invalid commands stored: []
+Savings account created with ID 12345678
+Command stored successfully.Deposit 12345678 1000
+Deposited $1000.0 into account 12345678
+Account state stored: Savings 12345678 1010.04 1.00
+Invalid commands stored: []
+CD account created with ID 12345678
+Account state stored: Cd 12345678 1000.50 0.60
+Invalid commands stored: []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
